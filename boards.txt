@@ -14,6 +14,54 @@
 # License along with this library; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
+
+# Telemetry-PCB - a derivative of Arduino ZERO (via adafruit feather)
+# ---------------------------------------
+telemetry.name=Telemetry-PCB
+telemetry.vid.0=0x2341
+telemetry.pid.0=0x804d
+telemetry.vid.1=0x2341
+telemetry.pid.1=0x004d
+
+telemetry.vid.2=0x2341
+telemetry.pid.2=0x824d
+# If the board is a 2341:824d use 2341:824d for build and set other parameters as well
+telemetry.vid.2.build.vid=0x2341
+telemetry.vid.2.build.pid=0x824d
+telemetry.vid.2.build.usb_product="Genuino Zero"
+telemetry.vid.2.bootloader.file=zero/samd21_sam_ba_genuino.bin
+
+telemetry.vid.3=0x2341
+telemetry.pid.3=0x024d
+# If the board is a 2341:024d use 2341:824d for build and set other parameters as well
+telemetry.vid.3.build.vid=0x2341
+telemetry.vid.3.build.pid=0x824d
+telemetry.vid.3.build.usb_product="Genuino Zero"
+telemetry.vid.3.bootloader.file=zero/samd21_sam_ba_genuino.bin
+
+telemetry.upload.tool=bossac
+telemetry.upload.protocol=sam-ba
+telemetry.upload.maximum_size=262144
+telemetry.upload.use_1200bps_touch=true
+telemetry.upload.wait_for_upload_port=true
+telemetry.upload.native_usb=true
+telemetry.build.mcu=cortex-m0plus
+telemetry.build.f_cpu=48000000L
+telemetry.build.usb_product="Arduino Zero"
+telemetry.build.usb_manufacturer="Arduino LLC"
+telemetry.build.board=SAMD_ZERO
+telemetry.build.core=arduino
+telemetry.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
+telemetry.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+telemetry.build.openocdscript=openocd_scripts/arduino_zero.cfg
+telemetry.build.variant=telemetry
+telemetry.build.variant_system_lib=
+telemetry.build.vid=0x2341
+telemetry.build.pid=0x804d
+telemetry.bootloader.tool=openocd
+telemetry.bootloader.file=zero/samd21_sam_ba.bin
+
+
 # Arduino/Genuino Zero (Prorgamming Port)
 # ---------------------------------------
 arduino_zero_edbg.name=Arduino/Genuino Zero (Programming Port)
