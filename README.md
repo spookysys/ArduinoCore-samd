@@ -1,7 +1,8 @@
-# Telemetry-PCB Arduino Support
+# Telemetry-PCB Arduino
+
+Board support files for https://github.com/spookysys/telemetry-pcb
 
 Fork of https://github.com/arduino/ArduinoCore-samd
-For use with https://github.com/spookysys/telemetry-pcb
 
 ## License and credits
 
