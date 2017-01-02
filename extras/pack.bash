@@ -25,7 +25,7 @@ VERSION=`grep version= platform.txt | sed 's/version=//g'`
 PWD=`pwd`
 FOLDERNAME=`basename $PWD`
 THIS_SCRIPT_NAME=`basename $0`
-FILENAME=package_telemetry-${VERSION}.tar.bz2
+FILENAME=package_l.raumschiffbau-${VERSION}.tar.bz2
 
 rm -f $FILENAME
 
@@ -46,5 +46,5 @@ sed "s/%%CURR_TIME%%/${CURR_TIME_SED}/" |
 sed "s/%%VERSION%%/${VERSION}/" |
 sed "s/%%FILENAME%%/${FILENAME}/" |
 sed "s/%%CHECKSUM%%/${CHKSUM}/" |
-sed "s/%%SIZE%%/${SIZE}/" > publish/package_telemetry_index.json
+sed "s/%%SIZE%%/${SIZE}/" > publish/package_l.raumschiffbau_index.json
 
