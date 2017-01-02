@@ -105,7 +105,7 @@
 
 
 #include "variant.h"
-#include "USBAPI.h"
+#include "USB/USBAPI.h"
 
 /*
  * Pins descriptions
