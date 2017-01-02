@@ -4,7 +4,6 @@
       "name": "l.raumschiffbau",
       "maintainer": "L.Raumschiffbau",
       "websiteURL": "http://www.facebook.com/lromskip",
-      "email": "no@no.no",
       "help": {
         "online": "http://github.com/spookysys/telemetry-pcb-arduino"
       },
