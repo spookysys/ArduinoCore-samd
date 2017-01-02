@@ -11,12 +11,12 @@
         {
           "name": "Rocket Brain",
           "architecture": "samd",
-          "version": "0.0.1",
+          "version": "0.0.2",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_l.raumschiffbau-0.0.1.tar.bz2",
-          "archiveFileName": "package_l.raumschiffbau-0.0.1.tar.bz2",
-          "checksum": "SHA-256:34cb820c561d35050ad33c574afdaf804b590a6d85292b99365593863a04ae17",
-          "size": "2724224",
+          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_l.raumschiffbau-0.0.2.tar.bz2",
+          "archiveFileName": "package_l.raumschiffbau-0.0.2.tar.bz2",
+          "checksum": "SHA-256:bb9a801386636f93e09c4b82a40363ba009c7b729a93557577f4cbb8196e8998",
+          "size": "2724479",
           "boards": [
             {
               "name": "telemetry"
