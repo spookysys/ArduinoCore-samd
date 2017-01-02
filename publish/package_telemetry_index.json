@@ -12,12 +12,12 @@
         {
           "name": "Telemetry-PCB",
           "architecture": "samd",
-          "version": "1.6.11",
+          "version": "0.0.1",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry-1.6.11.tar.bz2",
-          "archiveFileName": "package_telemetry-1.6.11.tar.bz2",
-          "checksum": "SHA-256:4c19d5f7359b24b67a831414bd20c89b8fc6628584fac1b663a2f3b8c541bf1d",
-          "size": "2733906",
+          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry-0.0.1.tar.bz2",
+          "archiveFileName": "package_telemetry-0.0.1.tar.bz2",
+          "checksum": "SHA-256:57fb9010567f61894f9eb05a2a467c3560c4379a593f53406b006ab8249828a3",
+          "size": "2722978",
           "boards": [
             {
               "name": "Telemetry-PCB"

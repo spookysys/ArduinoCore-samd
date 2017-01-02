@@ -20,7 +20,7 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
 name=Telemetry-PCB (Tracking Arduino SAMD)
-version=1.6.11
+version=0.0.1
 
 # Compile variables
 # -----------------
