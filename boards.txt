@@ -17,7 +17,7 @@
 
 # Telemetry - a derivative of Arduino ZERO (via adafruit feather)
 # ---------------------------------------
-telemetry.name=Telemetry
+telemetry.name=Telemetry Baseboard
 telemetry.vid.0=0x2341
 telemetry.pid.0=0x804d
 telemetry.vid.1=0x2341
