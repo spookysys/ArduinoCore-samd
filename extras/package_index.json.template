@@ -12,7 +12,7 @@
         {
           "name": "Telemetry-PCB",
           "architecture": "samd",
-          "version": "%%VERSION%% (%%CURR_TIME%%)",
+          "version": "%%VERSION%%",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/%%FILENAME%%",
           "archiveFileName": "%%FILENAME%%",
