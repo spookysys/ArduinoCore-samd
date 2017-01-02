@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Telemetry-PCB",
+          "name": "Telemetry",
           "architecture": "samd",
           "version": "%%VERSION%%",
           "category": "Contributed",
@@ -20,7 +20,7 @@
           "size": "%%SIZE%%",
           "boards": [
             {
-              "name": "Telemetry-PCB"
+              "name": "telemetry"
             }
           ],
           "toolsDependencies": [
