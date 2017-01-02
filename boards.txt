@@ -15,9 +15,9 @@
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 
-# Telemetry-PCB - a derivative of Arduino ZERO (via adafruit feather)
+# Telemetry - a derivative of Arduino ZERO (via adafruit feather)
 # ---------------------------------------
-telemetry.name=Telemetry-PCB
+telemetry.name=Telemetry
 telemetry.vid.0=0x2341
 telemetry.pid.0=0x804d
 telemetry.vid.1=0x2341

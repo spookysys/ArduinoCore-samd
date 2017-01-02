@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry-0.0.1.tar.bz2",
           "archiveFileName": "package_telemetry-0.0.1.tar.bz2",
-          "checksum": "SHA-256:056fe0c6495eca43f10a8bfbf9853d3502174d704dd131a60e39303b6b10794e",
-          "size": "2722916",
+          "checksum": "SHA-256:8fc80a78afc03ec02ef69f23dfc7080394e31921cd4a744d41742e8852786bfc",
+          "size": "2724263",
           "boards": [
             {
               "name": "Telemetry-PCB"
