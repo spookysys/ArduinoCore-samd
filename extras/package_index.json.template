@@ -9,7 +9,7 @@
       },
       "platforms": [
         {
-          "name": "telemetry",
+          "name": "Rocket Brain",
           "architecture": "samd",
           "version": "%%VERSION%%",
           "category": "Contributed",
