@@ -4,6 +4,11 @@ Board support files for https://github.com/spookysys/telemetry-pcb
 
 Fork of https://github.com/arduino/ArduinoCore-samd
 
+
+## Installation
+
+Add this to Additional Boards Manager URLs in Arduino Studio's Preferences: `https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry_index.json`
+
 ## License and credits
 
 This core has been developed by Arduino LLC in collaboration with Atmel.
