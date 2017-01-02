@@ -20,7 +20,7 @@
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
 name=Rocket Brain
-version=0.0.7
+version=0.0.8
 
 # Compile variables
 # -----------------
@@ -132,7 +132,7 @@ tools.avrdude_remote.upload.pattern=/usr/bin/XXX-run-avrdude /tmp/sketch.hex
 #
 # BOSSA
 #
-tools.bossac.path={runtime.tools.bossac-1.6.1.path}
+tools.bossac.path={runtime.tools.bossac-1.6.1-arduino.path}
 tools.bossac.cmd=bossac
 tools.bossac.cmd.windows=bossac.exe
 
