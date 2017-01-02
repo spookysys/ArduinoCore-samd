@@ -1,22 +1,22 @@
 {
   "packages": [
     {
-      "name": "l.raumschiffbau",
-      "maintainer": "L.Raumschiffbau",
+      "name": "telemetry",
+      "maintainer": "telemetry",
       "websiteURL": "http://www.facebook.com/lromskip",
       "help": {
         "online": "http://github.com/spookysys/telemetry-pcb-arduino"
       },
       "platforms": [
         {
-          "name": "Telemetry",
+          "name": "telemetry",
           "architecture": "samd",
-          "version": "0.0.2",
+          "version": "0.0.3",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry-0.0.2.tar.bz2",
-          "archiveFileName": "package_telemetry-0.0.2.tar.bz2",
-          "checksum": "SHA-256:b3cd23195783b63e32a3dc5adc4a82ecc627340b0c830d821a3349c7f9a5c4b3",
-          "size": "2724518",
+          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry-0.0.3.tar.bz2",
+          "archiveFileName": "package_telemetry-0.0.3.tar.bz2",
+          "checksum": "SHA-256:33ed8f16fc2889866ebd9f9eaccb7091a411d738208f7070894ff630bc5e2b2d",
+          "size": "2724731",
           "boards": [
             {
               "name": "telemetry"

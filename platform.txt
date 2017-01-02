@@ -19,8 +19,8 @@
 # For more info:
 # https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
 
-name=L.Raumschiffbau
-version=0.0.2
+name=telemetry
+version=0.0.3
 
 # Compile variables
 # -----------------

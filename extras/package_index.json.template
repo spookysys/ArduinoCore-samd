@@ -1,15 +1,15 @@
 {
   "packages": [
     {
-      "name": "l.raumschiffbau",
-      "maintainer": "L.Raumschiffbau",
+      "name": "telemetry",
+      "maintainer": "telemetry",
       "websiteURL": "http://www.facebook.com/lromskip",
       "help": {
         "online": "http://github.com/spookysys/telemetry-pcb-arduino"
       },
       "platforms": [
         {
-          "name": "Telemetry",
+          "name": "telemetry",
           "architecture": "samd",
           "version": "%%VERSION%%",
           "category": "Contributed",
