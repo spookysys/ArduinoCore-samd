@@ -30,14 +30,11 @@ FILENAME=package_telemetry-${VERSION}.tar.bz2
 rm -f $FILENAME
 
 # Change name in platform.txt
-sed -i "s/name=.*/name=Telemetry-PCB (${CURR_TIME})/" platform.txt
+# sed -i "s/name=.*/name=Telemetry-PCB (${CURR_TIME})/" platform.txt
 
 cd ..
 tar --transform "s|$FOLDERNAME|telemetry-${VERSION}|g"  --exclude=extras/** --exclude=publish/** --exclude=.git* --exclude=.idea -cjf $FILENAME $FOLDERNAME
 cd -
-
-# restore platform.txt
-git checkout platform.txt
 
 mv ../$FILENAME publish
 
