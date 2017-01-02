@@ -1,26 +1,25 @@
 {
   "packages": [
     {
-      "name": "arduino-beta",
-      "maintainer": "Arduino Betatesting",
-      "websiteURL": "http://www.arduino.cc/",
-      "email": "packages@arduino.cc",
+      "name": "l.raumschiffbau",
+      "maintainer": "L.Raumschiffbau",
+      "websiteURL": "http://www.facebook.com/lromskip",
       "help": {
-        "online": "http://www.arduino.cc/en/Reference/HomePage"
+        "online": "http://github.com/spookysys/telemetry-pcb-arduino"
       },
       "platforms": [
         {
-          "name": "Arduino SAMD core - Pull request #%%PR_NUMBER%% (build %%BUILD_NUMBER%%)",
+          "name": "Telemetry-PCB",
           "architecture": "samd",
-          "version": "%%VERSION%%",
-          "category": "Arduino",
-          "url": "http://downloads.arduino.cc/PR/samd/%%FILENAME%%",
+          "version": "%%VERSION%% (%%CURR_TIME%%)",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/%%FILENAME%%",
           "archiveFileName": "%%FILENAME%%",
           "checksum": "SHA-256:%%CHECKSUM%%",
           "size": "%%SIZE%%",
           "boards": [
             {
-              "name": "Arduino Zero"
+              "name": "Telemetry-PCB"
             }
           ],
           "toolsDependencies": [
