@@ -1,0 +1,58 @@
+{
+  "packages": [
+    {
+      "name": "l.raumschiffbau",
+      "maintainer": "L.Raumschiffbau",
+      "websiteURL": "http://www.facebook.com/lromskip",
+      "help": {
+        "online": "http://github.com/spookysys/telemetry-pcb-arduino"
+      },
+      "platforms": [
+        {
+          "name": "Telemetry-PCB",
+          "architecture": "samd",
+          "version": "0.0.1 (2017-01-02 01:13)",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_telemetry-0.0.1.tar.bz2",
+          "archiveFileName": "package_telemetry-0.0.1.tar.bz2",
+          "checksum": "SHA-256:e3e9dc9190f51e6139c8fee9ca060cdf1786391101a50b79125eab9911ff4cac",
+          "size": "2732033",
+          "boards": [
+            {
+              "name": "Telemetry-PCB"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.0.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
