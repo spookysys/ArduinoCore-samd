@@ -105,6 +105,7 @@
 
 
 #include "variant.h"
+#include "USBAPI.h"
 
 /*
  * Pins descriptions
@@ -209,6 +210,8 @@ SERCOM sercom5( SERCOM5 ) ;
 
 Uart Serial1( &sercom0, PIN_SERIAL1_RX, PIN_SERIAL1_TX, PAD_SERIAL1_RX, PAD_SERIAL1_TX ) ;
 //Uart Serial( &sercom5, PIN_SERIAL_RX, PIN_SERIAL_TX, PAD_SERIAL_RX, PAD_SERIAL_TX ) ;
+Stream& Serial = SerialUSB;
+
 void SERCOM0_Handler()
 {
   Serial1.IrqHandler();

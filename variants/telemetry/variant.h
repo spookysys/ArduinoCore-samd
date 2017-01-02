@@ -197,7 +197,7 @@ extern SERCOM sercom3;
 extern SERCOM sercom4;
 extern SERCOM sercom5;
 
-//extern Uart Serial;
+extern Stream& Serial; // points to SerialUSB for compatibility
 extern Uart Serial1;
 
 #endif
