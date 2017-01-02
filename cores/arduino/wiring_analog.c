@@ -129,8 +129,16 @@ uint32_t analogRead(uint32_t pin)
 {
   uint32_t valueRead = 0;
 
-  if (pin < A0) {
-    pin += A0;
+  switch (pin) {
+    case 0: pin = A0; break;
+    case 1: pin = A1; break;
+    case 2: pin = A2; break;
+    case 3: pin = A3; break;
+    case 4: pin = A4; break;
+    case 5: pin = A5; break;
+    case 6: pin = A6; break;
+    case 7: pin = A7; break;
+    default;
   }
 
   pinPeripheral(pin, PIO_ANALOG);
