@@ -11,6 +11,10 @@ Add this to Additional Boards Manager URLs in Arduino Studio's Preferences: `htt
 
 Then go to Board Manager and install Rocket Brain by L.Raumschiffbau.
 
+## Gotchas
+
+The included firmware is for Arduino Zero, and has not been adjusted for this board. Instead, install the firmware for Adafruit's Feather M0 card, available in my telemetry-pcb repository.
+
 ## License and credits
 
 This core has been developed by Arduino LLC in collaboration with Atmel.
