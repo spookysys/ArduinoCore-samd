@@ -1,4 +1,4 @@
-# Telemetry-PCB Arduino
+# Telemetry Arduino Support Files
 
 Board support files for https://github.com/spookysys/telemetry-pcb
 
