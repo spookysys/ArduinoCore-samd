@@ -7,7 +7,7 @@ Fork of https://github.com/arduino/ArduinoCore-samd
 
 ## Installation
 
-Add this to Additional Boards Manager URLs in Arduino Studio's Preferences: `https://raw.githubusercontent.com/spookysys/telemetry-pcb-arduino/master/publish/package_l.raumschiffbau_index.json`
+Add this to Additional Boards Manager URLs in Arduino Studio's Preferences: `https://raw.githubusercontent.com/spookysys/telemetry-arduino/master/publish/package_l.raumschiffbau_index.json`
 
 ## License and credits
 
