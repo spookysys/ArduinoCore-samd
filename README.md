@@ -13,7 +13,7 @@ Then go to Board Manager and install Rocket Brain by L.Raumschiffbau.
 
 ## Gotchas
 
-The included firmware is for Arduino Zero, and has not been adjusted for this board. Instead, install the firmware for Adafruit's Feather M0 card, available in my telemetry-pcb repository.
+The included firmware is for Arduino Zero, and has not been adjusted for this board. Don't use the meny in Arduino Studio to program it to the Telemetry board. Instead, install the firmware for Adafruit's Feather M0 card, available in my telemetry-pcb repository.
 
 ## License and credits
 
