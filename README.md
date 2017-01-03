@@ -9,6 +9,8 @@ Fork of https://github.com/arduino/ArduinoCore-samd
 
 Add this to Additional Boards Manager URLs in Arduino Studio's Preferences: `https://raw.githubusercontent.com/spookysys/telemetry-arduino/master/publish/package_l.raumschiffbau_index.json`
 
+Then go to Board Manager and install Rocket Brain by L.Raumschiffbau.
+
 ## License and credits
 
 This core has been developed by Arduino LLC in collaboration with Atmel.
